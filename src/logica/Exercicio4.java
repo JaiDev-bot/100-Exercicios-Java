@@ -15,6 +15,9 @@ public class Exercicio4 {
         return null;
     }
 
+
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Exercicio4 ex = new Exercicio4();
