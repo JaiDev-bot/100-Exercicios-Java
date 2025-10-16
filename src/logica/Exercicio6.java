@@ -23,6 +23,9 @@ public class Exercicio6 {
             System.out.println("error: digite um numero");
 
         }
+        finally {
+            scanner.close();
+        }
     }
 
 }

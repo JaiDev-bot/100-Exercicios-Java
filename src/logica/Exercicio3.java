@@ -20,6 +20,10 @@ public class Exercicio3 {
 
         } catch (InputMismatchException e ) {
             System.out.println("Error: digite um numero ");
+
+        }
+        finally {
+            scanner.close();
         }
 
 

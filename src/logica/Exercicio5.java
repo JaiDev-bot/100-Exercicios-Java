@@ -30,5 +30,8 @@ public class Exercicio5 {
         }catch(InputMismatchException e){
             System.out.println("error: digite um numero");
         }
+        finally {
+            scanner.close();
+        }
     }
 }

@@ -36,5 +36,8 @@ public class Exercicio4 {
         } catch (InputMismatchException e) {
             System.out.println(" error: digite um numero inteiro");;
         }
+        finally {
+            scanner.close();
+        }
     }
 }
