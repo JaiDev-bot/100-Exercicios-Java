@@ -21,7 +21,7 @@ public class Exercicio11 {
             double delta = Math.pow(B,2) - (4 * A * C);
 //            double delta = (B*B) - (4 * A *C);
 
-            System.out.println("O valor de delta é: " + delta);
+            System.out.printf("O valor de delta é %.2f: ", + delta);
 
         }catch (InputMismatchException e) {
             System.out.println("error: digite um numero");
