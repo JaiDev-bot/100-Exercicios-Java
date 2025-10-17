@@ -26,5 +26,6 @@ public class Exercicio15 {
         }finally {
             scanner.close();
         }
+
     }
 }
