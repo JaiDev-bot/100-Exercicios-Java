@@ -19,8 +19,6 @@ public class Exercicio12 {
         }finally {
             scanner.close();
         }
-
-
     }
 }
 
